@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".activities.LibraryActivity">
+
+    <!-- Top Bar -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/library_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/library_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/library_txt"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <!-- Scrollable content in landscape -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="16dp">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/atopic_derm"
+                android:layout_width="277dp"
+                android:layout_height="40dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/skindiseases_desc_link"
+                android:elevation="5dp"
+                android:gravity="center"
+                android:text="@string/atopic_dermatitis_txt"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/impetigo"
+                android:layout_width="277dp"
+                android:layout_height="40dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/skindiseases_desc_link"
+                android:elevation="5dp"
+                android:gravity="center"
+                android:text="@string/impetigo_txt"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/prickly_heat"
+                android:layout_width="277dp"
+                android:layout_height="40dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/skindiseases_desc_link"
+                android:elevation="5dp"
+                android:gravity="center"
+                android:text="@string/prickly_heat_txt"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/sarcoptes_scabiei"
+                android:layout_width="277dp"
+                android:layout_height="40dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/skindiseases_desc_link"
+                android:elevation="5dp"
+                android:gravity="center"
+                android:text="@string/scabies_txt"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tinea_corp"
+                android:layout_width="277dp"
+                android:layout_height="40dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/skindiseases_desc_link"
+                android:elevation="5dp"
+                android:gravity="center"
+                android:text="@string/tinea_infection_txt"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/wart"
+                android:layout_width="277dp"
+                android:layout_height="40dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/skindiseases_desc_link"
+                android:elevation="5dp"
+                android:gravity="center"
+                android:text="@string/wart_txt"
+                android:textColor="@color/black" />
+
+        </GridLayout>
+
+    </ScrollView>
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/menu_radius"
+        app:elevation="15dp"
+        app:itemIconTint="@color/bottom_nav_selector"
+        app:itemPaddingBottom="16dp"
+        app:itemPaddingTop="8dp"
+        app:itemTextColor="@color/bottom_nav_selector"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_nav" />
+
+</LinearLayout>

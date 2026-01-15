@@ -1,0 +1,204 @@
+<resources>
+
+    <!-- Landing page-->
+    <string name="app_name">Skin Disease Cam</string>
+    <string name="app_logo_desc">skin icon</string>
+
+    <string name="app_description">Skin Disease Cam is an advanced mobile application designed
+        to assist users in identifying, classifying, and managing skin diseases.\n\n
+        Utilizing state-of-the-art image recognition technology, Skin Disease Cam allows users to
+        capture images of their skin conditions and receive potential classifications of
+        various disease types, providing valuable insights into their
+        symptoms.
+    </string>
+
+
+    <!--disclaimer dialog-->
+    <string name="disclaimer_header">Disclaimer</string>
+    <string name="disclaimer_text">
+    The information and recommendations provided by Skin Disease Cam are for informational purposes only.\n\n
+    They are not intended to replace professional medical advice. Always consult a healthcare professional or dermatologist for an accurate diagnosis and treatment plan.
+    </string>
+
+    <string name="understand_button">I understand</string>
+
+
+    <!--bottom navigation-->
+    <string name="Camera">Camera</string>
+    <string name="Records">Records</string>
+    <string name="Library">Library</string>
+
+    <!--menu-->
+    <string name="view_txt">View</string>
+    <string name="delete_txt">Delete</string>
+
+
+    <!--camera-->
+    <string name="capture">capture button</string>
+    <string name="select_img">select img</string>
+
+    <!--adjust image-->
+    <string name="crop_button">Crop</string>
+
+
+    <!-- preview image-->
+    <string name="preview_img_txt">Preview Image</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="check_button">check</string>
+
+    <!--results-->
+    <string name="result_txt">Results</string>
+    <string name="skin_disease_name">skin disease name</string>
+    <string name="img_prev">img preview</string>
+    <string name="remedies">remedies</string>
+    <string name="back_btn">Back</string>
+    <string name="remedies_txt">Home remedies :</string>
+
+    <string name="result_disclaimer_txt">
+        This information is for educational and self-care purposes only.
+        If symptoms persist, worsen, or spread, please consult a licensed healthcare professional.
+        This app does not replace medical diagnosis or treatment by a qualified doctor.
+        Always follow your doctor’s advice for proper evaluation and management.
+    </string>
+
+    <string name="results_disclaimer_header">⚠️ Disclaimer</string>
+
+
+    <!--view results-->
+    <string name="view_record_txt">View record</string>
+
+
+    <!-- Welcome page-->
+    <string name="welcome_text">Welcome to Skin Disease Cam!</string>
+    <string name="getstarted_text">Get Started</string>
+    <string name="floating_section">floating section</string>
+
+
+    <!-- Records page-->
+    <string name="rec_text">Records</string>
+    <string name="skindisease_txt">Skin Disease</string>
+    <string name="date_and_time">Date and time</string>
+    <string name="menu">menu</string>
+
+    <!-- library page-->
+    <string name="library_txt">Library</string>
+
+
+    <!--prickly heat-->
+    <string name="prickly_heat_txt">Prickly Heat (Miliaria)</string>
+    <string name="prickly_heat_description">
+        Prickly heat, also called heat rash or miliaria, is a skin rash caused by blocked sweat ducts, leading to trapped sweat beneath the skin. It is characterized by red bumps or blisters and an itchy, prickly sensation, and it typically occurs in hot, humid climates or when the skin is covered and unable to "breathe". The condition is usually harmless and resolves on its own when the skin is cooled and kept dry.
+    </string>
+
+    <string name="ph_home_remedy"><![CDATA[
+    <b>Cold Shower + Calamine Lotion + Moisturizer</b> <br/><br/>
+    <<<b>Instructions:</b> <br/>
+    1. Take a <b>cool shower</b> to soothe and clean the skin. <br/>
+    2. Gently pat dry — avoid rubbing. <br/>
+    3. Apply <b>Calamine lotion</b> to relieve itching and irritation. <br/>
+    4. Once absorbed, apply a <b>gentle moisturizer</b> to prevent dryness. <br/><br/>
+        💧 Avoid tight clothing and stay in a cool environment.
+    ]]>
+    </string>
+
+
+    <!--Atopic dermatitis-->
+    <string name="atopic_dermatitis_txt">Atopic Dermatitis (Eczema)</string>
+
+    <string name="atopic_derm_description">
+        Atopic dermatitis, also known as atopic eczema, is a long-term type of inflammation of the skin. Atopic dermatitis is also often called simply eczema but the same term is also used to refer to dermatitis, the larger group of skin conditions. Atopic dermatitis results in itchy, red, swollen, and cracked skin.
+    </string>
+
+    <string name="ad_home_remedy"><![CDATA[
+    <b>Guaviderm (Guava Extract) – by DOST</b> <br/><br/>
+    <<<b>Instructions:</b> <br/>
+    1. Wash the affected area with mild soap and water. <br/>
+    2. Pat dry gently with a clean towel. <br/>
+    3. Apply a thin layer of <b>Guaviderm cream</b> to the affected skin <b>2–3 times daily</b>.<br/>
+    4. Continue use until symptoms improve or as advised by a healthcare provider. <br/><br/>
+        💡 Guava extract has natural antibacterial and anti-inflammatory properties.
+    ]]>
+    </string>
+
+
+    <!--Impetigo-->
+    <string name="impetigo_txt">Impetigo</string>
+
+    <string name="impetigo_description">
+        Impetigo is a common infection of the superficial layers of the epidermis that is highly contagious and most commonly caused by gram-positive bacteria. It most commonly presents as erythematous plaques with a yellow crust and may be itchy or painful. The lesions are highly contagious and spread easily.
+    </string>
+
+    <string name="imp_home_remedy"><![CDATA[
+    <b>Guaviderm (Guava Extract) – by DOST</b> <br/><br/>
+    <<<b>Instructions:</b> <br/>
+    1. Wash the affected area with mild soap and water. <br/>
+    2. Pat dry gently with a clean towel. <br/>
+    3. Apply a thin layer of <b>Guaviderm cream</b> to the affected skin <b>2–3 times daily</b>.<br/>
+    4. Continue use until symptoms improve or as advised by a healthcare provider. <br/><br/>
+        💡 Guava extract has natural antibacterial and anti-inflammatory properties.
+    ]]>
+    </string>
+
+
+
+    <!--Scabies-->
+    <string name="scabies_txt">Sarcoptes Scabiei (Scabies)</string>
+
+    <string name="scabies_description">
+        Scabies is caused by the Sarcoptes scarbiei mite. It causes an intense and itchy rash that can interrupt your sleep. Scabies spreads most often through direct contact with an infected person. Prescription medications can kill the mites and ease your symptoms.
+    </string>
+
+    <string name="scabies_home_remedy"><![CDATA[
+    <b>Guaviderm (Guava Extract) – by DOST</b> <br/><br/>
+    <<<b>Instructions:</b> <br/>
+    1. Wash the affected area with mild soap and water. <br/>
+    2. Pat dry gently with a clean towel. <br/>
+    3. Apply a thin layer of <b>Guaviderm cream</b> to the affected skin <b>2–3 times daily</b>.<br/>
+    4. Continue use until symptoms improve or as advised by a healthcare provider. <br/><br/>
+        💡 Guava extract has natural antibacterial and anti-inflammatory properties.
+    ]]>
+    </string>
+
+
+    <!--Tinea (Fungal) Infection-->
+    <string name="tinea_infection_txt">Tinea (Fungal) Infection</string>
+
+    <string name="tinea_dscription">
+        Tinea is a fungal infection of the skin. Tinea on the body or scalp is sometimes known as ringworm. This is because it can cause red patches on the skin in the shape of rings. But it’s not caused by worms. It’s caused by different types of fungi. Tinea infection can affect any part of the body. This includes the feet, nails, and genital area. But it most often occurs in moist areas of the body and around hair. The fungus can be spread from person to person.
+    </string>
+
+    <string name="tinea_home_remedy">
+        <![CDATA[
+    <b>Clotrimazole Cream or Ointment</b> <br/><br/>
+    <<<b>Instructions:</b> <br/>
+    1. Clean and dry the infected area thoroughly.<br/>
+    2. Apply a small amount of <b>Clotrimazole cream</b> twice daily (morning and night). <br/>
+    3. Continue for <b>2–4 weeks</b>, even if symptoms disappear early, to prevent recurrence. <br/><br/>
+        ⚠️ Avoid contact with eyes or mucous membranes.
+    ]]>
+    </string>
+
+
+    <!--Warts (Verruca Vulgaris)-->
+    <string name="wart_txt">Warts (Verruca Vulgaris)</string>
+
+    <string name="warts_description">
+        Common warts (verruca vulgaris) present as cauliflower-like papules with a rough, papillomatous and hyperkeratotic surface ranging in size from 1 mm to 1 cm or more. They may be solitary or multiple. Common warts are found most often on the knees, backs of fingers or toes, and around the nails (periungual).
+    </string>
+
+    <string name="warts_home_remedy">
+        <![CDATA[
+    <b>Salicylic Acid (20–40%) + Duct Tape + Sandpaper</b> <br/><br/>
+    <<<b>Instructions:</b> <br/>
+    1. Apply <b>salicylic acid</b> to the wart.<br/>
+    2. Cover completely with <b>duct tape</b>, keeping it sealed <b>24 hours a day</b>. <br/>
+    3. If the tape falls off, replace it immediately. <br/>
+    4. <b>After 2–3 weeks</b>, if the wart looks smaller, continue until it disappears. <br/>
+    5. When the wart becomes <b>white and soft</b>, gently rub it with <b>sandpaper</b> to remove the outer layer. <br/>
+    6. Replace duct tape and repeat every few days or weekly. <br/><br/>
+        🧴 Dispose of used sandpaper after each use.
+    ]]>
+    </string>
+
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- View record option -->
+    <item
+        android:id="@+id/action_view"
+        android:title="@string/view_txt"
+        android:icon="@drawable/ic_view" />
+
+    <!-- Delete record option -->
+    <item
+        android:id="@+id/action_delete"
+        android:title="@string/delete_txt"
+        android:icon="@drawable/ic_trash" />
+
+</menu>

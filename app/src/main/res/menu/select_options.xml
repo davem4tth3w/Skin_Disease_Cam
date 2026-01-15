@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_close"
+        android:title="Close"
+        android:icon="@drawable/close_ic"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_delete_selected"
+        android:title="Delete"
+        android:icon="@drawable/ic_trash"
+        android:iconTint="@color/black"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_select_all"
+        android:title="Select All"
+        android:icon="@drawable/select_all_ic"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_deselect_all"
+        android:title="Deselect All"
+        android:icon="@drawable/deselect_all_ic"
+        app:showAsAction="always" />
+
+</menu>
